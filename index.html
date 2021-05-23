@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certus Go</title>
+    
 </head>
 <body>
-    Bienvenido a Certus 2021
+    <h1>Pagina de Bienvenida </h1>
+    <p id="mensaje" style="color: red;">Este es un parrafo </p>
+    <script>
+        //Escribe Certus en el parrafo cuyo id es "mensaje"
+        document.getElementById('mensaje').innerHTML="Certus";
+        //Escribe el elemento div en esta posicion directamente en la pagina 
+        document.write("<div style='background-color:#776199;'>Bienvenido</div>");
+        //Muestra un mensaje de alerta
+        window.alert('Bienvenido a Certus');
+        //Escribe en la consola del navegador un mensaje
+        console.log('Mensaje en la consola del navegador');
+    </script>
 </body>
 </html>
